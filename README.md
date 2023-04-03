@@ -1,4 +1,4 @@
-### 💻 Rest-API auth-service with Java Spring Boot
+### 💻 Rest API auth-service with Java Spring Boot
 
 <img src="https://media.giphy.com/media/wwg1suUiTbCY8H8vIA/giphy-downsized-large.gif" width="300" height="300" />
 
