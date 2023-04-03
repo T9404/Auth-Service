@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        h1,
+        h2 {
+            font-weight: 400;
+        }
+        a {
+            text-decoration: none;
+        }
+        .wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .image__block {
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .content__title {
+            text-align: center;
+        }
+        .content__subtitle {
+            margin-bottom: 40px;
+        }
+        .content__link {
+            display: block;
+            width: 50%;
+            height: 50px;
+            margin: 0 auto;
+        }
+        .content__button {
+            color: white;
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            font-size: 25px;
+            transition-property: background-color;
+            transition-duration: 0.2s;
+        }
+
+        .content__button:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="image__block">
+        <img
+                src="https://cdn.discordapp.com/attachments/1072165914855882782/1084040186641514566/Component_1.png"
+                alt="KEEP CHAT"
+        />
+    </div>
+    <hr />
+    <main class="content">
+        <div class="container">
+            <h2 class="content__title">Здравствуйте, <span>{{username}}</span></h2>
+            <div class="content__subtitle">
+                Чтобы подтвердить свой почтовый ящик, пожалуйства перейдите по
+                следующей ссылке
+            </div>
+            <a class="content__link" href="{{link}}" target="_blank">
+                <button class="content__button">Подтвердить</button>
+            </a>
+        </div>
+    </main>
+</div>
+</body>
+</html>
